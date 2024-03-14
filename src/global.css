@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --heading-headline-4: Inter;
+  --font-montserrat: Montserrat;
+
+
+  /* Colors */
+  --default-white: #fff;
+  --neutral-black: #263238;
+  --text-gray-300: #d9dbe1;
+  --neutral-silver: #f5f7fa;
+  --brand-primary: #4caf4f;
+  --neutral-grey: #717171;
+  --neutral-d-grey: #4d4d4d;
+  --neutral-l-grey: #88939e;
+  --text-gray-900: #18191f;
+}

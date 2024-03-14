@@ -1,0 +1,466 @@
+.body {
+  margin: 0 auto 33.41px;
+  max-width: 1002.34px;
+  height: 1565.63px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 33.41px
+}
+
+.unlock,.unlock_img {
+  display: flex;
+  align-items: center;
+  height: 301.4px
+}
+
+.unlock {
+  max-width: 1002.34px;
+  padding: 0 100.23px;
+  justify-content: space-between
+}
+
+.unlock_img {
+  width: 307.66px;
+  padding: 36.2px 0
+}
+
+.unlock_right {
+  width: 460.1px;
+  height: 187.9px
+}
+
+.unlock_text {
+  width: 418.34px;
+  height: 129.14px;
+  margin-bottom: 22.27px
+}
+
+.unlock_heading {
+  width: 418.34px;
+  height: 62px;
+  margin-bottom: 11.14px
+}
+
+.unlock_heading>h3 {
+  font-family: var(--heading-headline-4);
+  font-size: 25.06px;
+  font-weight: 600;
+  line-height: 31.63px;
+  letter-spacing: 0;
+  text-align: left;
+  color: var(--neutral-d-grey)
+}
+
+.unlock_desc {
+  width: 418.34px;
+  height: 56px
+}
+
+.achievement_desc>p,.achievement_heading>h2,.unlock_desc>p,.unlock_right>button {
+  font-family: var(--heading-headline-4);
+  font-size: 9.74px;
+  font-weight: 400;
+  line-height: 13.92px;
+  letter-spacing: 0;
+  text-align: left;
+  color: var(--neutral-grey)
+}
+
+.unlock_right>button {
+  width: 105.55px;
+  height: 36.49px;
+  padding: 9.74px 22.27px;
+  border-radius: 2.78px;
+  background-color: var(--brand-primary);
+  cursor: pointer;
+  border: 0;
+  color: var(--default-white);
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 17px;
+  text-align: center
+}
+
+.achievement {
+  display: flex;
+  width: 1002.34px;
+  height: 202.94px;
+  padding: 44.55px 100.23px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--neutral-silver)
+}
+
+.achievements {
+  width: 375.88px;
+  height: 84.57px
+}
+
+.achievement_heading {
+  width: 284px;
+  height: 62px;
+  margin-bottom: 5.57px
+}
+
+.achievement_desc>p,.achievement_heading>h2 {
+  font-size: 25.06px;
+  font-weight: 600;
+  line-height: 30.63px;
+  color: var(--neutral-d-grey)
+}
+
+.achievement_heading>h2>span {
+  color: var(--brand-primary)
+}
+
+.achievement_desc,.counts {
+  width: 375.88px;
+  height: 17px
+}
+
+.achievement_desc>p {
+  font-size: 11.14px;
+  font-weight: 400;
+  line-height: 16.71px;
+  color: var(--text-gray-900)
+}
+
+.counts {
+  height: 113.84px;
+  display: grid;
+  grid-template-rows: 43px 43px;
+  grid-template-columns: 177.5px 177.5px;
+  row-gap: 27.84px;
+  column-gap: 20.88px
+}
+
+.grid_item,.grid_item>.icon {
+  display: flex;
+  align-items: center
+}
+
+.grid_item {
+  justify-content: center;
+  gap: 11.14px
+}
+
+.grid_item>.icon {
+  width: 33.41px;
+  height: 33.41px;
+  padding: 5.73px .32px 6.02px .52px
+}
+
+.grid_item>.details {
+  display: flex;
+  flex-direction: column;
+  width: 132.95px;
+  height: 43px
+}
+
+.details>.numbers {
+  width: 132.95px;
+  height: 26px;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 25px;
+  color: var(--neutral-d-grey)
+}
+
+.calender_heading>h3,.calender_heading>p,.details>.label,.details>.numbers {
+  font-family: var(--heading-headline-4);
+  letter-spacing: 0;
+  text-align: left
+}
+
+.details>.label {
+  width: 132.95px;
+  height: 17px;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 17px;
+  color: var(--neutral-grey)
+}
+
+.calender {
+  width: 1002.34px;
+  height: 301.68px
+}
+
+.calender_container,.calender_img {
+  height: 301.68px;
+  display: flex;
+  align-items: center
+}
+
+.calender_container {
+  justify-content: space-between;
+  width: 1002.34px;
+  padding: 0 100.23px
+}
+
+.calender_img {
+  width: 307.34px
+}
+
+.calender_desc {
+  width: 460.1px;
+  height: 215.9px
+}
+
+.calender_heading {
+  width: 418.34px;
+  height: 157.14px;
+  margin-bottom: 22.27px
+}
+
+.calender_heading>h3,.calender_heading>p {
+  width: 418.34px
+}
+
+.calender_heading>h3 {
+  height: 62px;
+  font-size: 25.06px;
+  font-weight: 600;
+  line-height: 30.63px;
+  color: var(--neutral-d-grey);
+  margin-bottom: 11.14px
+}
+
+.calender_heading>p {
+  height: 84px;
+  font-size: 9.74px;
+  font-weight: 400;
+  line-height: 13.92px;
+  color: var(--neutral-grey)
+}
+
+.calender_desc>button,.customer_para>p {
+  font-family: var(--heading-headline-4);
+  font-weight: 500;
+  letter-spacing: 0
+}
+
+.calender_desc>button {
+  width: 105.55px;
+  height: 36.49px;
+  padding: 9.74px 22.27px;
+  border-radius: 2.78px;
+  background-color: var(--brand-primary);
+  border: 0;
+  font-size: 11.14px;
+  line-height: 16.71px;
+  text-align: center;
+  color: var(--default-white)
+}
+
+.customer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1002.34px;
+  height: 271.47px;
+  background-color: var(--neutral-silver)
+}
+
+.customer_img,.customer_img>img {
+  width: 226.92px;
+  height: 226.92px;
+  border-radius: 5.57px
+}
+
+.customer_img {
+  margin-right: 54.29px;
+  display: flex;
+  align-items: center
+}
+
+.customer_img>img {
+  object-fit: contain
+}
+
+.customer_container {
+  width: 520.66px;
+  height: 226.39px
+}
+
+.customer_content {
+  display: flex;
+  flex-direction: column;
+  width: 520.66px;
+  height: 170.71px;
+  gap: 11.14px;
+  margin-bottom: 22.17px
+}
+
+.customer_para {
+  width: 520.66px;
+  height: 117px
+}
+
+.customer_para>p {
+  font-size: 11px;
+  line-height: 17px;
+  text-align: left;
+  color: var(--neutral-grey)
+}
+
+.customer_details {
+  display: flex;
+  flex-direction: column;
+  width: 520.66px;
+  height: 42.57px;
+  gap: 5.57px
+}
+
+.community_title>h3,.customer_association,.customer_meet_all>p,.customer_name {
+  width: 520.66px;
+  height: 20px;
+  font-family: var(--heading-headline-4);
+  font-size: 13.92px;
+  font-weight: 600;
+  line-height: 19.49px;
+  letter-spacing: 0;
+  text-align: left;
+  color: var(--brand-primary)
+}
+
+.community_title>h3,.customer_association,.customer_meet_all>p {
+  height: 17px;
+  font-size: 11.14px;
+  font-weight: 400;
+  line-height: 16.71px;
+  color: var(--neutral-l-grey)
+}
+
+.customer_meet {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 520.66px;
+  height: 33.41px;
+  gap: 22.27px
+}
+
+.customer_logo,.customer_logo>img {
+  width: 343.16px;
+  height: 33.41px
+}
+
+.community_content>div,.customer_meet_all {
+  display: flex;
+  align-items: center
+}
+
+.community_title>h3,.customer_meet_all>p {
+  width: 130.86px;
+  height: 20px;
+  font-size: 13.92px;
+  font-weight: 600;
+  line-height: 19.49px;
+  color: var(--brand-primary)
+}
+
+.community_content>div>span,.customer_meet_all>img {
+  width: 16.71px;
+  height: 16.71px
+}
+
+.community_updates {
+  width: 1002.34px;
+  height: 354.51px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center
+}
+
+.community_title {
+  width: 772.64px;
+  margin: 0 auto 11.14px;
+  height: 87.57px
+}
+
+.community_title>h3 {
+  width: 772.64px;
+  height: 31px;
+  font-size: 25.06px;
+  line-height: 30.63px;
+  text-align: center;
+  color: var(--neutral-d-grey);
+  margin-bottom: 5.57px
+}
+
+.community_content>div>p,.community_content>p,.community_title>p {
+  font-family: var(--heading-headline-4);
+  letter-spacing: 0;
+  text-align: center;
+  color: var(--neutral-grey)
+}
+
+.community_title>p {
+  width: 437.13px;
+  height: 51px;
+  margin: 0 auto;
+  font-size: 11.14px;
+  font-weight: 400;
+  line-height: 16.71px
+}
+
+.community_card_container {
+  width: 1002.34px;
+  height: 255.8px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 100.23px
+}
+
+.community_card {
+  width: 256.15px;
+  height: 255.8px;
+  position: relative
+}
+
+.community_content,.community_img {
+  width: 256.15px;
+  height: 199.08px;
+  border-radius: 5.57px
+}
+
+.community_content {
+  position: absolute;
+  left: 20px;
+  bottom: 0;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  width: 220.65px;
+  height: 123.55px;
+  padding: 11.14px;
+  gap: 11.14px;
+  box-shadow: 0px 5.56855583190918px 11.13711166381836px 0px #ABBED166;
+  background-color: var(--neutral-silver)
+}
+
+.community_content>div>p,.community_content>p {
+  width: 198.38px;
+  height: 59px;
+  font-size: 13.92px;
+  font-weight: 600;
+  line-height: 19.49px
+}
+
+.community_content>div {
+  justify-content: center;
+  width: 198.38px;
+  height: 31.14px;
+  padding: 5.57px;
+  gap: 5.57px
+}
+
+.community_content>div>p {
+  width: 69px;
+  height: 20px;
+  text-align: left;
+  color: var(--brand-primary);
+  white-space: nowrap
+}
